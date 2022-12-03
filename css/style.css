@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --primary-color: #0caac6;
+    --secondary-color: #c81d25;
+    --text-color: #f9f9f9;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    /* overflow-x: hidden; */
+    background: #000;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: "Heading-font";   /*Can be any text*/
+    src: url("../fonts/ElementalEnd.ttf");
+}
+@font-face {
+    font-family: "text-font";   /*Can be any text*/
+    src: url("../fonts/CodePro.otf");
+}
+@font-face {
+    font-family: "bold-font";   /*Can be any text*/
+    src: url("../fonts/CodeProBold.otf");
+}
+@font-face {
+    font-family: "black-font";   /*Can be any text*/
+    src: url("../fonts/CodeProBlack.otf");
+}
+
+
+::-webkit-scrollbar{
+    display: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+    font-family: Heading-font;
+}
+p ,a{
+    font-family: text-font;
+}
+.app__navbar{
+    padding: 4vh 4vw;
+    display: flex;
+    justify-content: space-between;
+    width: 100vw;    
+}
+.app__navbar-right{
+    display: flex;
+    justify-content: space-between;
+    width: 22vw;
+}
+.app__navbar-right a{
+    text-decoration: none;
+    color: var(--text-color);
+    padding-bottom: 4px;
+    border-bottom: 2px solid transparent;
+    transition: all ease-in-out 0.2s;
+
+}
+.app__navbar-right a:hover{
+    border-bottom: 2px solid var(--secondary-color);
+}
+main{
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    padding: 0;
+    height: 75vh;
+    justify-content: center;
+    align-items: center;
+    background: url('../assets/Group1.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    /* background-position-x: 0; */
+}
+main h1{
+    color: #fff;
+    /* margin-top: 26vh; */
+    font-size: 15vh;
+}
+.tagline{
+    color: var(--primary-color);
+    margin-top: 4vh;
+    text-align: center;
+    font-size: 2vh;
+}
