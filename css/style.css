@@ -74,7 +74,7 @@ main{
     display: flex;
     flex-direction: column;
     width: 100vw;
-    padding: 0;
+    padding-top: 15vh;
     height: 75vh;
     justify-content: center;
     align-items: center;
@@ -92,5 +92,28 @@ main h1{
     color: var(--primary-color);
     margin-top: 4vh;
     text-align: center;
-    font-size: 2vh;
+    font-size: 2.2vh;
+}
+.scroll-down{
+    padding-top: 12vh;
+}
+.scroll-down a{
+    width: 20vw;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-decoration: none;
+
+}
+#scroll-down{
+    color: #fff;
+    margin-top: 2vh;
+    padding-bottom: 1.5vh;
+    border-bottom: 2px solid transparent;
+    transition: all ease-in-out .2s;
+}
+.scroll-down a:hover #scroll-down{
+    border-bottom: 2px solid #c81d25;
+
 }
