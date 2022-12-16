@@ -1,162 +1,76 @@
 *{
+    box-sizing: border-box;
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+    
 }
-:root{
-    --primary-color: #0caac6;
-    --secondary-color: #c81d25;
-    --text-color: #f9f9f9;
+body{
+    background: rgb(4, 0, 13);
+    box-sizing: border-box;
 }
 html{
     scroll-behavior: smooth;
 }
-body{
-    /* overflow-x: hidden; */
-    background: #000;
-    box-sizing: border-box;
+@font-face {
+    font-family: Regular-text;
+    src: url(../fonts/Alliance-No-1-Regular.woff2);
 }
 @font-face {
-    font-family: "Heading-font";   /*Can be any text*/
-    src: url("../fonts/ElementalEnd.ttf");
+    font-family: Bold-text;
+    src: url(../fonts/Alliance-No-1-ExtraBold.woff2);
 }
-@font-face {
-    font-family: "text-font";   /*Can be any text*/
-    src: url("../fonts/CodePro.otf");
-}
-@font-face {
-    font-family: "bold-font";   /*Can be any text*/
-    src: url("../fonts/CodeProBold.otf");
-}
-@font-face {
-    font-family: "black-font";   /*Can be any text*/
-    src: url("../fonts/CodeProBlack.otf");
+p, a{
+    font-family: Regular-text;
+    color: aliceblue;
 }
 
-
-::-webkit-scrollbar{
-    display: none;
-}
-h1
-{
-    font-family: Heading-font;
-}
+h1,
 h2,
 h3,
 h4,
 h5,
 h6{
-    font-family: text-font;
+    font-family: Bold-text;
 }
-p ,a{
-    font-family: text-font;
+#logo-text{
+    font-size: 800;
+    font-family: Bold-text;
+    font-size: 3vh;
+    color: aliceblue;
+
 }
 .app__navbar{
     padding: 4vh 4vw;
     display: flex;
     justify-content: space-between;
-    width: 100vw;    
+    width: 100vw;
 }
 .app__navbar-right{
+    width: 20vw;
     display: flex;
     justify-content: space-between;
-    width: 22vw;
+
 }
 .app__navbar-right a{
+    color: aliceblue;
     text-decoration: none;
-    color: var(--text-color);
-    padding-bottom: 4px;
-    border-bottom: 2px solid transparent;
-    transition: all ease-in-out 0.2s;
 
-}
-.app__navbar-right a:hover{
-    border-bottom: 2px solid var(--secondary-color);
 }
 main{
+    padding: 4vh 4vw;
     display: flex;
     flex-direction: column;
     width: 100vw;
-    padding-top: 15vh;
-    height: 75vh;
-    justify-content: center;
+    height: 70vh;
+    place-content: center;
     align-items: center;
-    background: url('../assets/Group1.png');
-    background-repeat: no-repeat;
-    background-position: center;
-    /* background-position-x: 0; */
+
 }
+
 main h1{
-    color: #fff;
-    /* margin-top: 26vh; */
-    font-size: 15vh;
-}
-.tagline{
-    color: var(--primary-color);
-    margin-top: 4vh;
-    text-align: center;
-    font-size: 2.2vh;
-}
-.scroll-down{
-    padding-top: 12vh;
-}
-.scroll-down a{
-    width: 20vw;
-    align-items: center;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    text-decoration: none;
-
-}
-#scroll-down{
-    color: #fff;
-    margin-top: 2vh;
-    padding-bottom: 1.5vh;
-    border-bottom: 2px solid transparent;
-    transition: all ease-in-out .2s;
-}
-.scroll-down a:hover #scroll-down{
-    border-bottom: 2px solid #c81d25;
-
-}
-.app__intro{
-    margin-top: 20vh;
-    width: 100vw;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    background-color: #000000;
-    background-image: 
-        radial-gradient(at 32% 56%, #340000 0, transparent 59%), 
-        radial-gradient(at 82% 65%, rgb(11, 0, 49) 0, transparent 55%);
-    
-    /* background: linear-gradient(-45deg, rgb(49, 1, 1), rgb(3, 1, 50)); */
-    padding: 8vh 10vw;
-}
-.app__intro h2{
-    color: #fff;
-    font-size: 5vh;
-}
-.app__intro-container{
-    backdrop-filter: blur(16px) saturate(180%);
-    -webkit-backdrop-filter: blur(16px) saturate(180%);
-    background-color: rgba(19, 19, 19, 0.595);
-    border-radius: 12px;
-    border: 1px solid rgba(0, 0, 0, 0.125);
-    padding: 4vh 6vh;
-    margin-top: 6vh;
-    display: flex;
-    flex-direction: column;
-    gap: 4vh;
-}
-.text-container{
-    padding: 0 2vw;
-    margin-top: vh;
-}
-.app__intro-container p{
-    color: #fff;
+    background: -webkit-linear-gradient(45deg, rgb(4, 44, 112), rgb(1, 132, 112));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 7vw;
     
 }
-
