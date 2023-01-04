@@ -272,7 +272,7 @@ footer{
     }
     .app__main-left h1{
         font-size: 14vw;
-        margin-top: 4vh;
+        margin-top: 2vh;
     }
     .app__main-left-social{
         width: 50vw;
@@ -296,11 +296,15 @@ footer{
         font-size: 10vw;
     }
     .app__team{
-        padding:0;
+        padding: 0;
+    }
+    .app__team-headline{
+        padding-left: 8vw;
     }
     .app__team-content-card{
         width: 80vw;
         height: 45vh;
+        padding-bottom: 8vh;
     }
     .userImg{
         width: 70vw;
