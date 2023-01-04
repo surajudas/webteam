@@ -256,3 +256,73 @@ footer{
     background-color: var(--primary-color);
     border-radius: 2vh;
 }
+
+@media screen and (max-width: 420px){
+    .app__navbar-right{
+        width:60vw ;
+    }
+    .app__navbar-right a{
+        font-size: 16px;
+    }
+    main{
+        flex-direction: column;
+    }
+    .app__main-left{
+        padding-left: 6vw;
+    }
+    .app__main-left h1{
+        font-size: 14vw;
+        margin-top: 4vh;
+    }
+    .app__main-left-social{
+        width: 50vw;
+        gap: 10vw;
+    }
+    .app__main-left-social img{
+        width: 8vw;
+    }
+    .scroll-down{
+        width: 45vw;
+    }
+    .app__main-right{
+        display: none;
+    }
+    .app__about{
+        padding-top: 10vh;
+        padding-left: 8vw;
+
+    }
+    .app__about-headline h2, .app__team-headline h2{
+        font-size: 10vw;
+    }
+    .app__team{
+        padding:0;
+    }
+    .app__team-content-card{
+        width: 80vw;
+        height: 45vh;
+    }
+    .userImg{
+        width: 70vw;
+    }
+    .app__social{
+        gap: 12vw;
+    }
+    .app__social img{
+        width: 8vw;
+    }
+    footer{
+        flex-direction: column;
+        align-items: center;
+        gap: 12vh;
+    }
+    .app__footer-left, .app__footer-right{
+        width: 100vw;
+        align-items: center;
+
+
+    }
+    .app__footer-right{
+        padding: 0 8vw;
+    }
+}
