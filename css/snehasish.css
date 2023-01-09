@@ -1,24 +1,4 @@
-* {
-	 padding: 0;
-	 margin: 0;
-	 box-sizing: border-box;
-}
- body {
-	 font-family: 'Orbitron', sans-serif;
-	 background: #333;
-}
- .container {
-	 max-width: 900px;
-	 display: flex;
-	 justify-content: space-evenly;
-	 margin: 0 auto;
-}
- .card-wrapper {
-	 width: 400px;
-	 height: 500px;
-	 position: relative;
-}
- .card {
+.card {
 	 position: absolute;
 	 top: 50%;
 	 left: 50%;
