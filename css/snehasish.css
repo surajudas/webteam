@@ -1,4 +1,4 @@
-.card {
+.snehasishcard {
 	 position: absolute;
 	 top: 50%;
 	 left: 50%;
@@ -11,7 +11,7 @@
 	 cursor: pointer;
 	 transition: 0.5s;
 }
- .card .card-pic{
+ .snehasishcard .card-pic{
 	 position: absolute;
 	 top: 0px;
 	 left: 0px;
@@ -26,11 +26,11 @@
 	object-fit: cover;
 }
 
- .card:hover img {
+ .snehasishcard:hover img {
 	 opacity: 0.4;
 	 transition: 0.5s;
 }
- .card:hover .card-pic {
+ .snehasishcard:hover .card-pic {
 	 transform: translateY(-100px);
 	 transition: all 0.9s;
 }
@@ -68,7 +68,7 @@
 
 
 
- .card:hover .socials li a {
+ .snehasishcard:hover .socials li a {
 	 transform: translateY(0px);
 	 opacity: 1;
 }
@@ -87,13 +87,13 @@
 	 color: #fff;
 }
 
- .card:hover li:nth-child(1) a {
+ .snehasishcard:hover li:nth-child(1) a {
 	 transition-delay: 0.1s;
 }
- .card:hover li:nth-child(2) a {
+ .snehasishcard:hover li:nth-child(2) a {
 	 transition-delay: 0.2s;
 }
- .card:hover li:nth-child(3) a {
+ .snehasishcard:hover li:nth-child(3) a {
 	 transition-delay: 0.3s;
 }
 
@@ -133,10 +133,10 @@
  .profile .socials li a {
 	 border-radius: 60%;
 }
- .card:hover .profile-img {
+ .snehasishcard:hover .profile-img {
 	 transform: rotateY(180deg);
 }
- .card:hover .Snehasish {
+ .snehasishcard:hover .Snehasish {
 	 bottom: 0;
 	 left: 0;
 	 transition-delay: 0.5s;
