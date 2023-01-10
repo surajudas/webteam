@@ -1,7 +1,11 @@
+
 .snehasishcard {
 	 position: absolute;
 	 top: 50%;
 	 left: 50%;
+
+.card {
+
 	 width: 300px;
 	 height: 350px;
 	 transform: translate(-50%, -50%);
@@ -11,7 +15,11 @@
 	 cursor: pointer;
 	 transition: 0.5s;
 }
+
  .snehasishcard .card-pic{
+
+.card-image {
+
 	 position: absolute;
 	 top: 0px;
 	 left: 0px;
